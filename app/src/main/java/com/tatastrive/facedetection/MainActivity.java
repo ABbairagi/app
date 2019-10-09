@@ -42,8 +42,8 @@ public class MainActivity extends AppCompatActivity {
                 BitmapFactory.Options options = new BitmapFactory.Options();
                 options.inMutable=true;
                 MediaStore ms=new MediaStore();
-                Intent intent = new Intent(ms.INTENT_ACTION_STILL_IMAGE_CAMERA);
-                startActivityForResult(intent, clickcode);
+//                Intent intent = new Intent(ms.INTENT_ACTION_STILL_IMAGE_CAMERA);
+//                startActivityForResult(intent, clickcode);
                 Bitmap myBitmap = BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.test1);
 
                 Paint myRectPaint = new Paint();
